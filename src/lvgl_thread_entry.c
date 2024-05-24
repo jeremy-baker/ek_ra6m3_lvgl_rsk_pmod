@@ -1,7 +1,6 @@
 #include "lvgl_thread.h"
 #include "lvgl.h"
 #include "lvgl/src/drivers/display/st7735/lv_st7735.h"
-#include "stdio.h"
 
 #define DISPLAY_HSIZE_INPUT0  128
 #define DISPLAY_VSIZE_INPUT0  128
@@ -98,8 +97,6 @@ void lvgl_thread_entry(void *pvParameters)
 {
     FSP_PARAMETER_NOT_USED (pvParameters);
     fsp_err_t err;
-
-        printf("Hello\r\n");
 
         lv_init();
 
