@@ -1,0 +1,12 @@
+Debug/*
+ra_gen/*
+ra_cfg/*
+ra/*
+src/lvgl/*
+JLinkLog.log
+build/*
+.cache/*
+.itm_trace_records/*
+.tracing/*
+Experiments/*
+Traces/*
